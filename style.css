@@ -224,11 +224,14 @@ h4{
     margin-bottom: 1rem;
 }
 .pictures{
-    display: grid;
+    display:grid;
     grid-template-columns: repeat(4,1fr);
 }
 .pictures img{
     width: 100%;
+}
+.mobile-pictures{
+    display:none;
 }
 footer{
    height:35%;
@@ -274,9 +277,12 @@ margin-right: 20px;
 header{
     background-image:url("./images/mobile/image-header.jpg");
     background-size:400px 850px;
+    background-position: center;
    background-repeat: no-repeat;
 }
-
+h1{
+    font-weight: var(--Font-weight-bold1);
+}
 .desktop-photo1,.desktop-photo2{
     display:none;
 }
@@ -304,9 +310,15 @@ header{
     flex-direction: column;
     padding-bottom: 2rem;
 }
-.pictures{
+.mobile-pictures{
     display: grid;
     grid-template-columns:repeat(2,1fr);
+}
+.mobile-pictures img{
+width:100%;
+}
+.pictures{
+    display: none;
 }
 .fruit,.clients{
     display: block;
@@ -374,7 +386,7 @@ header{
     margin-left:12.8rem;
 }
 .logo1{
-    right:7.5rem;
+    right:8rem;
 }
 
 }
