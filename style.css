@@ -273,15 +273,17 @@ margin-right: 20px;
 .mobile-photo1,.mobile-photo2{
     display:none;
 }
-@media(max-width:740px){
+@media screen and (orientation:portrait){
 header{
     background-image:url("./images/mobile/image-header.jpg");
-    background-size:400px 850px;
+    background-size:365px;
     background-position: center;
    background-repeat: no-repeat;
+   height: 500px;
 }
 h1{
     font-weight: var(--Font-weight-bold1);
+    margin-top:0.5rem;
 }
 .desktop-photo1,.desktop-photo2{
     display:none;
@@ -289,13 +291,16 @@ h1{
 .btn{
     display:none;
 }
+nav{
+    margin-bottom: 3rem;
+}
 .logo{
     width:50%;
 }
 #arrow{
     left:10.5rem;
-    width:13%;
-    bottom:10rem;
+    width:12%;
+    bottom:22.5rem;
 }
 .first{
     display: flex;
