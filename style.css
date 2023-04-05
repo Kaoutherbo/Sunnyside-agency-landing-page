@@ -284,6 +284,7 @@ header{
 h1{
     font-weight: var(--Font-weight-bold1);
     margin-top:0.5rem;
+    margin-bottom:1rem;
 }
 .desktop-photo1,.desktop-photo2{
     display:none;
@@ -300,7 +301,8 @@ nav{
 #arrow{
     left:10.5rem;
     width:12%;
-    bottom:12.5rem;
+    padding-top: 0;
+   margin-bottom: 25rem;
 }
 .first{
     display: flex;
